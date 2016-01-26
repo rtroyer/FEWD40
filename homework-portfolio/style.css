@@ -1,0 +1,29 @@
+h1, h3{
+	font-family: Helvetica Neue, Helvetica, sans-serif;
+	color:#333;
+}
+
+body{
+	font-family: Helvetica Neue, Helvetica, sans-serif;
+	color:#777;
+}
+
+a:link {
+	color:#555;
+}
+
+a:visited, a:hover, a:active {
+    color: #0085bd;
+}
+
+.avatar{
+	display: inline-block;
+	overflow: hidden;
+
+}
+
+.footer {
+	margin-top: 20px;
+	color: #ccc;
+}
+
