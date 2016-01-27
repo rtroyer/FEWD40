@@ -51,19 +51,29 @@ a:visited, a:hover, a:active {
 
 .avatar{
 	display: inline-block;
-	overflow: hidden;
 	float:right;
 	padding:0px 0px 0px 20px;
 
 }
 
 .content{
-	display:block;
+	overflow:hidden;
+}
+
+.project-image{
+	overflow:hidden;
 	float:left;
+	padding:0px 20px 20px 0px;
 }
 
 .footer {
-	margin-top: 50px;
 	display:block;
+	overflow:hidden;
+	margin-top:50px;
+	border-top:1px dotted #777;
+	padding-top:15px;
+}
+
+	
 }
 
