@@ -1,15 +1,25 @@
 .header{
-	border-bottom:1px solid #777;
+	border-bottom:1px dotted #777;
+}
+
+p{
+	max-width:740px;
+}
+
+ul{
+    padding:0px;
+
 }
 
 ul li
 {
     list-style: none;
     display:inline;
+    padding:0px;
 }
 
-ul{
-    padding:0;
+.nav{
+    padding:0px;
 }
 
 h1 {
@@ -47,7 +57,13 @@ a:visited, a:hover, a:active {
 
 }
 
+.content{
+	display:block;
+	float:left;
+}
+
 .footer {
 	margin-top: 50px;
+	display:block;
 }
 
