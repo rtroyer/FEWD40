@@ -32,9 +32,16 @@ h2 {
 	font-size:20px;
 }
 
-h3{
+h3 {
 	font-family: Helvetica Neue, Helvetica, sans-serif;
 	color:#333;
+}
+
+h4{
+	font-family: Helvetica Neue, Helvetica, sans-serif;
+	color:#777;
+	font-size: 1em;
+	margin:0px;
 }
 
 body{
