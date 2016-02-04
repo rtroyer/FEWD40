@@ -1,8 +1,8 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Project Name: Relaxr
+Client: Relaxr
+Author: Rita Troyer
+Developer @GA in SF
 */
 
 
@@ -49,9 +49,7 @@ body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
 
@@ -61,10 +59,8 @@ body {
 
 /* Center the container */
 #container {
-  width: 100%;
+  width: 960px;
   margin: auto;
-  height: 500px;
-
 }
 
 header {
@@ -78,3 +74,7 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+
+
+

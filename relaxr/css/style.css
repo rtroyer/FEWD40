@@ -1,0 +1,210 @@
+/*
+Project Name: Relaxr
+Client: Relaxr
+Author: Rita Troyer
+Developer @GA in SF
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color:#606161;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+   }
+
+a{
+    text-decoration: none;
+}
+
+.yellow{
+    background-color:#f9e42e;
+    color:#033048;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    text-align:center;
+    position:relative;
+    display:inline-block;
+    border-radius:5px;
+    font-weight:800;
+    font-size:14px;
+    border:none;
+    padding:.5em 2em;
+    margin:0px;
+}
+
+.blue{
+    background-color:#033048;
+    color:#fff;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    text-align:center;
+    position:relative;
+    display:inline-block;
+    border-radius:5px;
+    font-weight:800;
+    font-size:12px;
+    border:none;
+    padding:.5em 2em;
+    margin:0px;
+}
+
+a.button{
+  background-color:#f9e42e;
+  color:white;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+h1{
+  color:#fff;
+  font-size:24px;
+  font-weight:600;
+  text-align:center;
+  padding-top:150px;
+  padding-bottom:20px;
+}
+
+h2{
+  color:#033048;
+  font-weight:600;
+  font-size:20px;
+}
+
+p, ul{
+  font-weight:300;
+  font-size:13px;
+}
+
+blockquote{
+  font-weight:300;
+  font-style:italic;
+  font-size:18px;
+  width:600px;
+  text-align:center;
+  color:#fff;
+  margin:0 auto;
+  padding-top:60px;
+}
+
+.logo{
+  color:#fff;
+  font-size:24px;
+  font-weight:800;
+  text-align:left;
+}
+
+.logo-footer{
+  color:#f9e42e;
+  font-size:24px;
+  font-weight:800;
+  text-align:center;
+}
+
+.name{
+  font-size:18px;
+  font-weight:600;
+  text-align:center;
+  color:#fff;
+}
+
+.copyright{
+  font-size:9px;
+  font-weight:600;
+  text-align:center;
+  color:#fff;
+  padding-top:20px;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+#container1, #container2, #container3, #cta, footer {
+  margin:0 auto;
+  width:960px;
+}
+
+header {
+  text-align:center;
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  height:600px;
+  padding-top:30px;
+}
+
+#benefits {
+  background-color:#f0efef;
+  height:300px;
+  padding:50px 0px 50px;
+}
+
+#testimonial {
+  height:300px;
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  padding-top:30px;
+}
+
+#signup {
+  height:75px;
+  background-color:#f9e42e;
+  text-align:center;
+  padding-top:23px;
+}
+
+footer {
+  width:100%;
+  height:220px;
+  background-color:#121212;
+  text-align:center;
+  padding-top:30px;
+}
+
+footer ul li {
+  list-style: none;
+  display:inline-block;
+  text-align:center;
+  margin:0px 20px 0px -20px;
+  height:36px;
+  width:36px;
+}
