@@ -124,62 +124,52 @@ blockquote{
   padding-top:60px;
 }
 
+.logo{
+  color:#fff;
+  font-size:24px;
+  font-weight:800;
+  text-align:left;
+}
+
+.logo-footer{
+  color:#f9e42e;
+  font-size:24px;
+  font-weight:800;
+  text-align:center;
+}
+
+.name{
+  font-size:18px;
+  font-weight:600;
+  text-align:center;
+  color:#fff;
+}
+
+.copyright{
+  font-size:9px;
+  font-weight:600;
+  text-align:center;
+  color:#fff;
+  padding-top:20px;
+}
+
+
 /******************************************
 /* LAYOUT
 /*******************************************/
+
 
 #container1, #container2, #container3, #cta, footer{
   margin:0 auto;
   width:960px;
 }
 
-/******************************************
-/* OTHER STYLES
-/*******************************************/
-
 header {
   text-align:center;
   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
   background-size: cover;
   height:600px;
-}
-
-.header-container{
-  background-color:#01214C;
-}
-
-#logo{
-  display:block;
-  float:left;
-  width:30%;
-  margin:0;
-  padding:0;
-  vertical-align: middle;
-}
-
-.logo{
-  color:#fff;
-  font-size:24px;
-  font-weight:800;
-}
-
-#nav{
-  float:left;
-  width:70%;
-  margin:0;
-
-}
-
-#nav ul {
-  display:block;
-}
-
-#nav li{
-  color:#fff;
-  list-style:none;
-  display:inline;
-  padding:0;
-  margin:20px;
+  padding-top:30px;
 }
 
 #benefits {
@@ -219,25 +209,36 @@ footer ul li {
   width:36px;
 }
 
-.logo-footer{
-  color:#f9e42e;
-  font-size:24px;
-  font-weight:800;
-  text-align:center;
+/******************************************
+/* BLOG STYLES
+/*******************************************/
+
+nav{
+  background-color:#01214C;
+  overflow:auto;
 }
 
-.name{
-  font-size:18px;
-  font-weight:600;
-  text-align:center;
-  color:#fff;
+#logo{
+  float:left;
+  width:30%;
+  padding:0px 30px;
 }
 
-.copyright{
-  font-size:9px;
-  font-weight:600;
-  text-align:center;
-  color:#fff;
-  padding-top:20px;
+#nav{
+  float:right;
+  padding: 20px 10px 20px 0px;
 }
+
+#nav ul{
+  display:block;
+}
+
+#nav li{
+  display:inline;
+  color:#fff;
+  list-style:none;
+  padding:0;
+  margin:20px;
+}
+
 
