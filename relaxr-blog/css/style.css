@@ -51,7 +51,7 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-   }
+}
 
 a{
     text-decoration: none;
@@ -234,6 +234,7 @@ footer ul li {
 #wrapper{
   width:960px;
   background-color:#f0efef;
+  margin:0 auto;
 }
 
 nav{
