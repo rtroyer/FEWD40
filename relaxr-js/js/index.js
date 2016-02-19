@@ -21,8 +21,8 @@ $('#readless-btn').click(function(e){
 //learn more
 $('.learnmore-btn').click(function(e){
 	e.preventDefault()
-	$('#learnmoretext').slideDown('slow', function(){
 	$('.learnmore-btn').hide();
+	$('#learnmoretext').slideDown('slow', function(){
 });
 
 });
