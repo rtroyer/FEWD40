@@ -1,6 +1,7 @@
 $(document).ready(function() {
 //begin doc ready	
 
+//read more, read less
 $('#readmore-btn').click(function(e){ 
 	e.preventDefault(); 
 	$('.readmore').hide(); 
@@ -27,7 +28,6 @@ $('.learnmore-btn').click(function(e){
 });
 
 //sign up
-
 $('#bottom-cta a').click(function(e){
 	e.preventDefault()
 });	
