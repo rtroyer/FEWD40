@@ -1,8 +1,9 @@
 //here's my pseudo code
 	//take user input
-	//search for city variable, checks if string has a match
+	//search for city variable, check if string has a match
 	//display associated image
 	//store user input
+	//reset input
 
 $(document).ready(function() {
   // begin doc ready
