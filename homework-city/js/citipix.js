@@ -40,11 +40,11 @@ $('#submit-btn').click(function background(){
 
 		}
 
-});
-
 //reset input 
 
 $('#city-type').val("");
+
+});
 
 // prevent page reload upon submission
 $('#submit-btn').click(function(event) {
