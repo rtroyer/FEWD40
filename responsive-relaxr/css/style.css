@@ -95,9 +95,25 @@ header nav ul li a {
   color: #f9e42e;
 }
 
-header nav li:first-child{
+header nav #mobileMenu, .mobileMenu {
+  text-decoration:none;
+  text-align:center;
   display:none;
 }
+
+/*hide checkbox*/
+input[type=checkbox]{
+  display:none;
+}
+
+/*show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ #menu{
+  display:block;
+}
+
+/*header nav li:first-child{
+  display:none;
+}*/
 
 #hero {
   height: 700px;
@@ -329,21 +345,39 @@ footer p {
     margin:20px;
    }
 
-  a #mobileMenu{
-    cursor: pointer;
-   }
+  #mobileMenu, .mobileMenu{
+    display:block;
+    text-align:center;
+    color: #fff;
+  }
 
-  header nav li:first-child{
+  /*a .mobileMenu{
+    cursor: pointer;
+   }*/
+
+  /*header nav li:first-child{
     display:block;
     position: absolute;
     top: 1em;
     right: 1em;
+  }*/
+
+  header nav li{
+    margin-bottom:1px;
+  }
+
+  header nav ul li, li a{
+    width:100%;
+    text-align:center;
+    margin:0px;
   }
 
   header nav ul{
-    height:0;
+    /*height:0;
     transition:height 1s;
-    overflow: hidden;
+    overflow: hidden;*/
+    position:static;
+    display:none;
   }
 
 /*end media query*/
