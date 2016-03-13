@@ -7,15 +7,15 @@
 // 	}
 // });
 
-$(document).ready(function() {
+// $(document).ready(function() {
 
-	$('a #mobileMenu').click(function(e){
-	   e.preventDefault()
-	// $('.learnmore-btn').hide();
-		$('header nav ul').show();
-         console.log("this worked");   
-     });
-});
+// 	$('a #mobileMenu').click(function(e){
+// 	   e.preventDefault()
+// 	// $('.learnmore-btn').hide();
+// 		$('header nav ul').show();
+//          console.log("this worked");   
+//      });
+// });
 
 // $(document).ready(function(){
 //     $("#hide").click(function(){
