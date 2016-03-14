@@ -42,23 +42,32 @@
   
 }
 
-.intro-text, ul{
-	   font-family: 'Work Sans', sans-serif;
-     font-weight: 400;
+.intro-text {
+	  font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    font-size: 1.25em;
+    max-width: 600px;
+    color:#fff;
+}
+
+ul{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
     -webkit-font-smoothing: antialiased;
     font-size:15px; 
 }
 
 h1{
   font-family:'Merriweather', slab-serif;
-  margin:0 auto;
+  font-size:2em;
 }
 
 .bold{
 	font-weight:bold;
 }
 
-.intro-text{
+#intro-text{
 	text-align:center;
   margin:auto;
   background-color:#ea6fa5;
@@ -71,6 +80,7 @@ h1{
 
 #nav{
   margin-top:25%;
+  width:25%;
 }
 
 #nav ul{
@@ -101,3 +111,18 @@ h1{
   height:100%;
 }
 
+.chakra{
+  max-width:70%;
+}
+
+/******************************************
+/* MEDIA QUERY
+/*******************************************/
+
+@media (max-device-width:768px), (max-width:768px){
+
+#nav{
+  display:none;
+}
+/*end media query*/
+}
