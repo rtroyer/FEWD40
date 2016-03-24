@@ -38,17 +38,25 @@
 /* BASE STYLES
 /*******************************************/
 
-.body{
-  
+a{
+  color:#fff;
+  text-decoration: none;
 }
 
-#intro-text {
+body{
+  color:#444;
+}
+
+#intro{
 	  font-family: 'Work Sans', sans-serif;
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
     font-size: 1.25em;
     max-width: 600px;
     color:#fff;
+    text-align:center;
+    margin:auto;
+    /*background-color:#ea6fa5;*/
 }
 
 ul{
@@ -61,31 +69,46 @@ ul{
 h1{
   font-family:'Merriweather', slab-serif;
   font-size:2em;
+  margin:0 auto;
 }
+
+h2{
+  font-family:'Merriweather', slab-serif;
+  font-size:2em;
+} 
 
 .bold{
 	font-weight:bold;
 }
 
-#intro-text{
-	text-align:center;
-  margin:auto;
-  background-color:#ea6fa5;
-  /*position:absolute;
-  top: 50%;
-  left: 50%;*/
-  /* bring your own prefixes
-  transform: translate(-50%, -50%);*/
+#flex-fix{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:10;
 }
 
 #nav{
+  width:30%;
+  position:fixed;
+}
+  /*display:fixed;
+  margin-top:25%;
+
+  */
+/*#nav-tmp{
   margin-top:25%;
   width:25%;
-}
+}*/
 
 #nav ul{
   display:block;
-  flex:<30%>|auto;
 }
 
 #nav li{
@@ -94,25 +117,36 @@ h1{
   padding:0;
 }
 
-
-
 /******************************************
 /* LAYOUT
 /*******************************************/
 
-.container-header {
+.masthead {
   display:flex;
+  position:relative;
   height:100%;
   background-color:#ea6fa5;
+  z-index: 999;
 }
 
 .container{
   display:flex;
+  /*flex-direction: row;
+  flex-wrap: wrap;*/
   height:100%;
+  justify-content:flex-end;
+  z-index:-10;
 }
 
 .chakra{
-  max-width:70%;
+  width:70%;
+  margin-left:10%;
+}
+
+#section-one, #section-two, #section-three, #section-four,
+#section-five, #section-six, #section-seven{
+  height:100vh;
+  width: 70%;
 }
 
 /******************************************
@@ -123,6 +157,10 @@ h1{
 
 #nav{
   display:none;
+}
+
+#section-one, #section-two{
+  width: 100%;
 }
 /*end media query*/
 }
