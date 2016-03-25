@@ -9,6 +9,8 @@ $(window).scroll(function(){
 		$('body').css('background-color','#FAD8FA');
 		$('#nav li a').css('color','#222');
 		$('#nav-1 a').css('color','#F093F0');
+		$('#nav li a').css('font-weight','400');
+		$('#nav-1 a').css('font-weight','600');
 
 	} else {
 		// something else
@@ -20,6 +22,8 @@ $(window).scroll(function(){
 		$('body').css('background-color','#EBD1FF');
 		$('#nav li a').css('color','#222');
 		$('#nav-2 a').css('color','#DAAAFF');
+		$('#nav li a').css('font-weight','400');
+		$('#nav-2 a').css('font-weight','600');
 
 	} else {
 		// something else
@@ -31,6 +35,8 @@ $(window).scroll(function(){
 		$('body').css('background-color','#DCEEFF');
 		$('#nav li a').css('color','#222');
 		$('#nav-3 a').css('color','#90C9FF');
+		$('#nav li a').css('font-weight','400');
+		$('#nav-3 a').css('font-weight','600');
 
 	} else {
 		// something else
@@ -42,6 +48,9 @@ $(window).scroll(function(){
 		$('body').css('background-color','#DFF7E8');
 		$('#nav li a').css('color','#222');
 		$('#nav-4 a').css('color','#A2E8BC');
+		$('#nav li a').css('font-weight','400');
+		$('#nav-4 a').css('font-weight','600');
+
 
 	} else {
 		// something else
@@ -53,6 +62,8 @@ $(window).scroll(function(){
 		$('body').css('background-color','#FFF2CC');
 		$('#nav li a').css('color','#222');
 		$('#nav-5 a').css('color','#FFDF80');
+		$('#nav li a').css('font-weight','400');
+		$('#nav-5 a').css('font-weight','600');
 	} else {
 		// something else
 	}
@@ -63,6 +74,8 @@ $(window).scroll(function(){
 		$('body').css('background-color','#FFE3CC');
 		$('#nav li a').css('color','#000');
 		$('#nav-6 a').css('color','#FFB980');
+		$('#nav li a').css('font-weight','400');
+		$('#nav-6 a').css('font-weight','600');
 	} else {
 		// something else
 	}
@@ -73,6 +86,8 @@ $(window).scroll(function(){
 		$('body').css('background-color','#F4CDCD');
 		$('#nav li a').css('color','#000');
 		$('#nav-7 a').css('color','#DD6464');
+		$('#nav li a').css('font-weight','400');
+		$('#nav-7 a').css('font-weight','600');
 	} else {
 		// something else
 	}
