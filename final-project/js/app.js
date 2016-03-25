@@ -6,9 +6,9 @@ $(window).scroll(function(){
 	// first thing
 
 	if (isScrolledIntoView('#section-one')===true){
-		$('body').css('background-color','#FADFEB');
-		$('#nav li a').css('color','#000');
-		$('#nav-1 a').css('color','#fff');
+		$('body').css('background-color','#FAD8FA');
+		$('#nav li a').css('color','#222');
+		$('#nav-1 a').css('color','#F093F0');
 
 	} else {
 		// something else
@@ -17,9 +17,9 @@ $(window).scroll(function(){
 
 
 	if (isScrolledIntoView('#section-two')===true){
-		$('body').css('background-color','#ECE2F7');
-		$('#nav li a').css('color','#000');
-		$('#nav-2 a').css('color','#fff');
+		$('body').css('background-color','#EBD1FF');
+		$('#nav li a').css('color','#222');
+		$('#nav-2 a').css('color','#DAAAFF');
 
 	} else {
 		// something else
@@ -29,8 +29,8 @@ $(window).scroll(function(){
 
 	if (isScrolledIntoView('#section-three')===true){
 		$('body').css('background-color','#DCEEFF');
-		$('#nav li a').css('color','#000');
-		$('#nav-3 a').css('color','#fff');
+		$('#nav li a').css('color','#222');
+		$('#nav-3 a').css('color','#90C9FF');
 
 	} else {
 		// something else
@@ -40,8 +40,8 @@ $(window).scroll(function(){
 
 	if (isScrolledIntoView('#section-four')===true){
 		$('body').css('background-color','#DFF7E8');
-		$('#nav li a').css('color','#000');
-		$('#nav-4 a').css('color','#fff');
+		$('#nav li a').css('color','#222');
+		$('#nav-4 a').css('color','#A2E8BC');
 
 	} else {
 		// something else
@@ -51,8 +51,8 @@ $(window).scroll(function(){
 
 	if (isScrolledIntoView('#section-five')===true){
 		$('body').css('background-color','#FFF2CC');
-		$('#nav li a').css('color','#000');
-		$('#nav-5 a').css('color','#fff');
+		$('#nav li a').css('color','#222');
+		$('#nav-5 a').css('color','#FFDF80');
 	} else {
 		// something else
 	}
@@ -62,7 +62,7 @@ $(window).scroll(function(){
 	if (isScrolledIntoView('#section-six')===true){
 		$('body').css('background-color','#FFE3CC');
 		$('#nav li a').css('color','#000');
-		$('#nav-6 a').css('color','#fff');
+		$('#nav-6 a').css('color','#FFB980');
 	} else {
 		// something else
 	}
@@ -70,9 +70,9 @@ $(window).scroll(function(){
 
 
 	if (isScrolledIntoView('#section-seven')===true){
-		$('body').css('background-color','#F4D9D9');
+		$('body').css('background-color','#F4CDCD');
 		$('#nav li a').css('color','#000');
-		$('#nav-7 a').css('color','#fff');
+		$('#nav-7 a').css('color','#DD6464');
 	} else {
 		// something else
 	}
