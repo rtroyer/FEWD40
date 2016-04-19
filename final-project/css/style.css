@@ -183,6 +183,12 @@ h4{
   display:none;
 }
 
+
+#intro{
+  width: 100%;
+  height: 100%;
+}
+
 #section-one, #section-two, #section-three, #section-four,
 #section-five, #section-six, #section-seven{
   width: 100%;
